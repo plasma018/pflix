@@ -1,6 +1,6 @@
-
 .contain{
   width: 100%;
+  background-color: black;
 }
 .row{
   overflow: scroll;

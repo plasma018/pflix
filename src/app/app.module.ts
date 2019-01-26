@@ -4,14 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { TitleCardComponent } from './carousel/title-card/title-card.component';
+import { ContentComponent } from './content/content.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CarouselComponent,
-    TitleCardComponent
+    ContentComponent
   ],
   imports: [
     BrowserModule
